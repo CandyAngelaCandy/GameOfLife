@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Game of Life</title>
+    <link href="css/GameOfLife.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<table>
+    <tr align="center">
+        <td colspan="2">
+            <h3>Game of Life</h3>
+        </td>
+    </tr>
+    <tr>
+        <td align="left">Generation:
+            <span id="spanGen">0</span>
+        </td>
+        <td align="right">
+            <button id="btnStart" >Start</button>
+            <button id="btnPause" disabled="disabled">Pause</button>
+            <button id="btnReset" disabled="disabled">Reset</button>
+            <button id="btnRandom">Random</button>
+        </td>
+    </tr>
+    <tr align="center">
+        <td colspan="2">
+            <canvas id="space" width="500" height="500"/>
+        </td>
+    </tr>
+</table>
+<script type="text/javascript" src="js/GameOfLife.js"></script>
+</body>
+<html>
